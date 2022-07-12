@@ -1,0 +1,61 @@
+body{
+  background-color: #7CA73E; 
+  background-image: url(./img/backg.png);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.grid{
+  width: 400px;
+  height: 600px;
+  background-image: url(./img/background.png);
+  position: relative;
+  left: 23rem; 
+  top: 3rem;
+  backdrop-filter: blur(10px); background-color: rgba(255, 255, 255, 1); border-radius: 26px; box-shadow: 35px 35px 68px 0px rgba(124, 167, 62, 0.5), inset -8px -8px 16px 0px rgba(124, 167, 62, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+}
+
+.doodler{
+  width: 85px;
+  height: 85px;
+  background-image: url(./img/doodler-guy.png);
+  background-size: cover;
+  position: absolute;
+}
+
+.platform{
+  width: 85px;
+  height: 15px;
+  background-image: url(./img/platform.png);
+  position: absolute;
+}
+
+.button{
+  position: absolute;
+  top: 17rem;
+  right:23rem;
+  text-decoration: none;
+  border: none;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: #fff;
+  color: #7CA73E;
+  padding: 1rem 2rem 1rem 2rem;
+  backdrop-filter: blur(10px); background-color: rgba(255, 255, 255, 1); border-radius: 26px; box-shadow: 35px 35px 68px 0px rgba(124, 167, 62, 0.5), inset -8px -8px 16px 0px rgba(124, 167, 62, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+}
+
+.score{
+  position: absolute;
+  color: #fff;
+  top:22rem;
+  right: 25rem;
+  font-size: 1.5rem;
+}
+
+#game-over{
+  font-size: 3rem;
+  letter-spacing: .5rem;
+  color: #fff;
+  position: absolute;
+  top: 25rem;
+  right:19rem;
+}
